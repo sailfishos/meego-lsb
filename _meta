@@ -1,0 +1,12 @@
+<package project="Mer:Trunk:Base" name="meego-lsb">
+  <title>LSB support for Moblin Linux</title>
+  <description>The Linux Standard Base (LSB) is an attempt to develop a set of
+standards that will increase compatibility among Linux distributions.
+The moblin-lsb package provides utilities needed for LSB Compliant
+Applications.  It also contains requirements that will ensure that all
+components required by the LSB that are provided by Red Hat Linux are
+installed on the system.
+
+</description>
+  <url>http://www.linux-foundation.org/</url>
+</package>

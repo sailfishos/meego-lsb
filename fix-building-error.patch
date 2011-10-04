@@ -1,0 +1,13 @@
+--- meego-lsb-4.0/meego_lsb_trigger.c	2009-01-17 07:43:55.000000000 +0800
++++ meego-lsb-4/meego_lsb_trigger.c	2010-07-22 10:24:47.970424597 +0800
+@@ -450,8 +450,8 @@
+ int __libc_multiple_threads __attribute__((nocommon));
+ int __libc_enable_asynccancel (void) { return 0; }
+ void __libc_disable_asynccancel (int x) { }
+-void __libc_csu_init (void) { }
+-void __libc_csu_fini (void) { }
++/* void __libc_csu_init (void) { } */
++/* void __libc_csu_fini (void) { } */
+ pid_t __fork (void) { return -1; }
+ char thr_buf[65536];
+ 
